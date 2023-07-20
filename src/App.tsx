@@ -22,7 +22,7 @@ function App() {
                         <br /> Eau De Parfum
                     </p>
                     <p className="my-5 font-Montserrat text-gray-500">
-                        A floral, solar and voluptuous interpretation composed
+                        A floral, solar and voluptuous interpretation compose
                         <br />
                         by Olivier Polge, Perfumer-Creator for the House of
                         CHANEL.
