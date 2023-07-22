@@ -5,15 +5,15 @@ import cart from "./assets/icon-cart.svg";
 function App() {
     return (
         <div className="bg-cream h-screen items-center flex justify-center ">
-            <div className="flex w-2/3 flex-col lg:flex-row">
+            <div className="flex w-2/3 h-1/2   justify-center flex-col lg:flex-row ">
                 <div className="">
                     <img
                         src={img1}
-                        className="object-cover w-full aspect-video object-center lg:aspect-auto center"
+                        className="object-cover h-full w-full aspect-video object-center lg:aspect-auto center"
                         alt="photo"
                     />
                 </div>
-                <div className="bg-white height flex  flex-col justify-center p-5">
+                <div className="bg-white height flex flex-col justify-center p-5">
                     <p className="font-Montserrat tracking-widest mb-5">
                         Perfume
                     </p>
@@ -35,7 +35,7 @@ function App() {
                             $169.99
                         </span>
                     </div>
-                    <div className="bg-cyan cursor-pointer ease-in duration-300 transition flex hover:bg-black items-center justify-center w-full p-5 rounded">
+                    <div className="bg-cyan cursor-pointer ease-in duration-300 transition flex hover:bg-black items-center justify-center w-full p-5 rounded-xl">
                         <img src={cart} alt="cart" />
                         <p className="text-white font-Montserrat">
                             Add to cart

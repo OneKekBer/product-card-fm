@@ -29,7 +29,7 @@ module.exports = {
 
         extend: {
             colors: {
-                cream: "#FBCC9D",
+                cream: "#f3eae3",
                 cyan: "#467e69",
             },
         },
